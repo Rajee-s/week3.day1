@@ -6,9 +6,7 @@ public abstract class MultipleLanguage implements TestTool, Language {
 		System.out.println("This is Python Programming");
 	}
 
-	public void ruby() {
-		
-	}
+	public abstract void ruby();
 		
 	
 }
